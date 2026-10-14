@@ -3,24 +3,24 @@ revision = 3
 requires-python = ">=3.10, <3.14"
 resolution-markers = [
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version < '3.11' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version < '3.11' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version < '3.11' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version < '3.11' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.12.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.11.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version < '3.11' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version < '3.11' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version < '3.11' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version < '3.11' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version < '3.11' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
 ]
 required-markers = [
@@ -363,19 +363,19 @@ version = "1.3.3"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.12.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.11.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
 ]
 dependencies = [
@@ -719,19 +719,19 @@ version = "1.14.0"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.12.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.11.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/26/ce/6e067242fde898841922ac6fc82b0bb2fe35c38e995880bdffdfbe30182a/etils-1.14.0.tar.gz", hash = "sha256:8136e7f4c4173cd0af0ca5481c4475152f0b8686192951eefa60ee8711e1ede4", size = 108127, upload-time = "2026-03-04T17:41:36.291Z" }
@@ -1035,19 +1035,19 @@ version = "9.16.1"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.12.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.11.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
 ]
 dependencies = [
@@ -1354,19 +1354,19 @@ version = "3.11.1"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.12.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.11.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
 ]
 dependencies = [
@@ -1672,19 +1672,19 @@ version = "3.6.1"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.12.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.11.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/6a/51/63fe664f3908c97be9d2e4f1158eb633317598cfa6e1fc14af5383f17512/networkx-3.6.1.tar.gz", hash = "sha256:26b7c357accc0c8cde558ad486283728b65b6a95d85ee1cd66bafab4c8168509", size = 2517025, upload-time = "2025-12-08T17:02:39.908Z" }
@@ -1832,14 +1832,14 @@ version = "2.5.2"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.12.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/9a/80/db0b4559e57ec36362bedbb05530a87fafbcb6067708c946967a41d449e7/numpy-2.5.2.tar.gz", hash = "sha256:d482d171c406ae88c5b19cad3b6a1c4c5209f886ab74bc44c2c865c23f52d860", size = 20773161, upload-time = "2026-08-09T13:48:27.962Z" }
@@ -2946,14 +2946,14 @@ version = "1.18.0"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.12.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
 ]
 dependencies = [
@@ -3172,16 +3172,16 @@ version = "2.13.0"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version < '3.11' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version < '3.11' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.12.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.11.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version < '3.11' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version < '3.11' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version < '3.11' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
 ]
 dependencies = [
@@ -3327,20 +3327,20 @@ version = "0.28.0"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version < '3.11' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version < '3.11' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
-    "python_full_version < '3.11' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version >= '3.13' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.12.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.12.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version == '3.11.*' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version == '3.11.*' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version < '3.11' and sys_platform == 'darwin' and extra != 'extra-16-unitree-g1-catch-cpu' and extra == 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version < '3.11' and sys_platform != 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
+    "python_full_version < '3.11' and sys_platform == 'darwin' and extra == 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
     "python_full_version < '3.11' and extra != 'extra-16-unitree-g1-catch-cpu' and extra != 'extra-16-unitree-g1-catch-cu128'",
 ]
 dependencies = [
@@ -3738,14 +3738,14 @@ wheels = [
 
 [[package]]
 name = "werkzeug"
-version = "3.1.8"
+version = "3.1.9"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "markupsafe" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/dd/b2/381be8cfdee792dd117872481b6e378f85c957dd7c5bca38897b08f765fd/werkzeug-3.1.8.tar.gz", hash = "sha256:9bad61a4268dac112f1c5cd4630a56ede601b6ed420300677a869083d70a4c44", size = 875852, upload-time = "2026-04-02T18:49:14.268Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a4/34/4dd12fc8bb7d61c91467ec3efe415ffa7d5456f799954b40c5bbaeae470e/werkzeug-3.1.9.tar.gz", hash = "sha256:55ca7c70a75689be937aa27f8ff4b018f06ff4838fc73045560bf0f5a1291060", size = 940188, upload-time = "2026-09-27T18:33:41.637Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/93/8c/2e650f2afeb7ee576912636c23ddb621c91ac6a98e66dc8d29c3c69446e1/werkzeug-3.1.8-py3-none-any.whl", hash = "sha256:63a77fb8892bf28ebc3178683445222aa500e48ebad5ec77b0ad80f8726b1f50", size = 226459, upload-time = "2026-04-02T18:49:12.72Z" },
+    { url = "https://files.pythonhosted.org/packages/a1/38/df03f564f43cec2684823f3cccae1a652ee7face1cbaa76fb223096e64d7/werkzeug-3.1.9-py3-none-any.whl", hash = "sha256:6392e50c78460ba618e5b21f08a71f59c99ce99cdc6cf6e3dd7e6ccca8754fab", size = 228700, upload-time = "2026-09-27T18:33:39.685Z" },
 ]
 
 [[package]]
